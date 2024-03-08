@@ -6,8 +6,6 @@ require.ensure(
 
         var App = require("./App.vue").default;
         require("./css/style.css");
-        require("./css/vscode-darkplus.css");
-        require("katex/dist/katex.min.css");
 
         var app = createApp(App);
         app.mount("#app");
